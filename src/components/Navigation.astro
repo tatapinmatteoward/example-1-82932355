@@ -1,0 +1,44 @@
+---
+// Navigation component for Seoul Pet Rescue
+const siteName = "Seoul Pet Rescue";
+---
+
+<nav class="bg-white shadow-lg">
+  <div class="container mx-auto px-4 py-4">
+    <div class="flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold text-[#4F772D] hover:text-[#FF6B35] transition-colors">
+        {siteName}
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex gap-6">
+        <a href="/" class="text-[#4F772D] hover:text-[#FF6B35] transition-colors font-medium">Home</a>
+        <a href="/services" class="text-[#4F772D] hover:text-[#FF6B35] transition-colors font-medium">Services</a>
+        <a href="/blog" class="text-[#4F772D] hover:text-[#FF6B35] transition-colors font-medium">Blog</a>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden text-[#4F772D] focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Mobile Navigation (hidden by default) -->
+    <div class="md:hidden hidden mt-4 pb-4">
+      <div class="flex flex-col gap-3">
+        <a href="/" class="text-[#4F772D] hover:text-[#FF6B35] transition-colors py-2">Home</a>
+        <a href="/services" class="text-[#4F772D] hover:text-[#FF6B35] transition-colors py-2">Services</a>
+        <a href="/blog" class="text-[#4F772D] hover:text-[#FF6B35] transition-colors py-2">Blog</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<style>
+  /* Smooth transitions for hover effects */
+  a {
+    transition: color 0.3s ease;
+  }
+</style>
