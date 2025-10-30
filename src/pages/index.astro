@@ -1,0 +1,197 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Seoul Pet Rescue - Saving Lives, One Paw at a Time" description="Join us in rescuing and rehoming abandoned pets in Seoul. Every adoption makes a difference in our gentle mission to save lives.">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-primary/90 to-accent/80 z-10"></div>
+    <div class="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center mix-blend-overlay opacity-30"></div>
+    <div class="relative z-20 container mx-auto px-4 py-32 md:py-48">
+      <div class="max-w-3xl">
+        <p class="text-white text-xl md:text-2xl font-serif italic mb-4">Saving lives, one paw at a time</p>
+        <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">Seoul Pet Rescue</h1>
+        <p class="text-white text-lg md:text-xl mb-8 max-w-2xl">In the bustling heart of Seoul, countless animals await their second chance at happiness. We believe every pet deserves a loving home.</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="/adopt" class="bg-accent hover:bg-accent/90 text-white font-serif font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 text-center">Adopt a Pet</a>
+          <a href="/get-involved" class="bg-white/20 hover:bg-white/30 text-white font-serif font-bold py-3 px-8 rounded-full transition-all duration-300 backdrop-blur-sm border border-white/30 text-center">Get Involved</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mission Section -->
+  <section class="py-20 bg-stone-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Our Gentle Mission</h2>
+        <div class="w-24 h-1 bg-accent mx-auto"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="relative">
+          <div class="absolute -top-6 -left-6 w-full h-full border-4 border-accent/20 rounded-lg"></div>
+          <div class="relative rounded-lg overflow-hidden shadow-xl">
+            <img src="/images/mission.jpg" alt="Our Mission" class="w-full h-auto object-cover">
+          </div>
+        </div>
+        
+        <div>
+          <p class="text-lg text-stone-700 mb-8 font-serif">We are dedicated to rescuing, rehabilitating, and rehoming abandoned pets throughout Seoul while educating our community about responsible pet ownership.</p>
+          
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 mt-1">
+                <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                  <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl font-bold text-primary mb-2">Rescuing</h3>
+                <p class="text-stone-600">Saving abandoned and neglected pets throughout the Seoul metropolitan area</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start">
+              <div class="flex-shrink-0 mt-1">
+                <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                  <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl font-bold text-primary mb-2">Rehabilitating</h3>
+                <p class="text-stone-600">Providing medical care, behavioral training, and lots of love</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start">
+              <div class="flex-shrink-0 mt-1">
+                <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                  <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl font-bold text-primary mb-2">Rehoming</h3>
+                <p class="text-stone-600">Carefully matching pets with compassionate families</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Help Section -->
+  <section class="py-20 bg-gradient-to-br from-primary to-primary/90 text-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">How You Can Help</h2>
+        <p class="text-xl max-w-2xl mx-auto">Every contribution makes a difference in saving lives</p>
+        <div class="w-24 h-1 bg-accent mx-auto mt-4"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300">
+          <div class="w-16 h-16 rounded-full bg-accent flex items-center justify-center mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Adopt</h3>
+          <p class="mb-6">Give a rescued pet the loving home they deserve. Find your perfect companion today.</p>
+          <a href="/adopt" class="text-accent font-serif font-bold hover:underline">Meet Our Pets →</a>
+        </div>
+        
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300">
+          <div class="w-16 h-16 rounded-full bg-accent flex items-center justify-center mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Foster</h3>
+          <p class="mb-6">Provide temporary care and prepare pets for permanent homes. Make a huge impact!</p>
+          <a href="/foster" class="text-accent font-serif font-bold hover:underline">Learn More →</a>
+        </div>
+        
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300">
+          <div class="w-16 h-16 rounded-full bg-accent flex items-center justify-center mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Donate</h3>
+          <p class="mb-6">Support our life-saving work through monetary or supply donations. Every amount helps.</p>
+          <a href="/donate" class="text-accent font-serif font-bold hover:underline">Donate Now →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Stories -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Happy Tails</h2>
+        <p class="text-xl text-stone-600 max-w-2xl mx-auto">Stories of transformation and love</p>
+        <div class="w-24 h-1 bg-accent mx-auto mt-4"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-stone-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="h-56 bg-gradient-to-r from-primary/20 to-accent/20 flex items-center justify-center">
+            <div class="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-primary mb-2">Momo's Journey</h3>
+            <p class="text-stone-600 mb-4">From street dog to beloved family member in just 3 months</p>
+            <a href="/stories/momo" class="text-accent font-serif font-bold hover:underline">Read Story →</a>
+          </div>
+        </div>
+        
+        <div class="bg-stone-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="h-56 bg-gradient-to-r from-primary/20 to-accent/20 flex items-center justify-center">
+            <div class="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-primary mb-2">Luna's Recovery</h3>
+            <p class="text-stone-600 mb-4">Special needs cat who found her forever home</p>
+            <a href="/stories/luna" class="text-accent font-serif font-bold hover:underline">Read Story →</a>
+          </div>
+        </div>
+        
+        <div class="bg-stone-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="h-56 bg-gradient-to-r from-primary/20 to-accent/20 flex items-center justify-center">
+            <div class="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-primary mb-2">Buddy's New Life</h3>
+            <p class="text-stone-600 mb-4">Senior dog adopted just in time for his golden years</p>
+            <a href="/stories/buddy" class="text-accent font-serif font-bold hover:underline">Read Story →</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-12">
+        <a href="/success-stories" class="inline-block bg-primary hover:bg-primary/90 text-white font-serif font-bold py-3 px-8 rounded-full transition-all duration-300">See More Stories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-accent to-accent/90 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Make a Difference?</h2>
+      <p class="text-xl max-w-2xl mx-auto mb-10">Join our community of animal lovers and help us save more lives</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/volunteer" class="bg-white text-accent hover:bg-stone-100 font-serif font-bold py-3 px-8 rounded-full transition-all duration-300">Volunteer</a>
+        <a href="/contact" class="bg-transparent border-2 border-white hover:bg-white/10 font-serif font-bold py-3 px-8 rounded-full transition-all duration-300">Contact Us</a>
+      </div>
+    </div>
+  </section>
+</Layout>
